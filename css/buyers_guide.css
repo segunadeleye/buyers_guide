@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ececec;
+}
+
+.banner {
+  margin-bottom: 10px;
+}
+
+.inner-container {
+  background: #fff;
+}
+
+.icon {
+  display: inline-block;
+  height: 250px;
+  width: 300px;
+  margin-right: 10px;
+}
+.content {
+  padding: 0 20px;
+  width: 90%;
+  height: 100px;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  background: transparent;
+}
+#icon1 {
+  background: url('../img/1.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 140px;
+}
+#icon1:hover {
+  background: url('../img/1a.png') no-repeat;
+  background-position: center top;
+}
+
+#icon2 {
+  background: url('../img/2.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 140px;
+}
+#icon2:hover {
+  background: url('../img/2b.png') no-repeat;
+  background-position: center top;
+}
+
+#icon3 {
+  background: url('../img/3.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 140px;
+}
+#icon3:hover {
+  background: url('../img/3c.png') no-repeat;
+  background-position: center top;
+}
+
+#icon4 {
+  background: url('../img/4.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 150px;
+}
+#icon4:hover {
+  background: url('../img/4b.png') no-repeat;
+  background-position: center top;
+}
+
+#icon5 {
+  background: url('../img/5.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 150px;
+}
+#icon5:hover {
+  background: url('../img/5b.png') no-repeat;
+  background-position: center top;
+}
+
+#icon6 {
+  background: url('../img/6.png') no-repeat;
+  background-position: center top;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 150px;
+}
+#icon6:hover {
+  background: url('../img/6b.png') no-repeat;
+  background-position: center top;
+}
+
+/*.ch {
+  height: 120px;
+  width: auto;
+}*/
