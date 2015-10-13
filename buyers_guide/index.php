@@ -80,8 +80,8 @@
           </h6>
           <div class="accord-data" style="display: none;">
             <p class="bold para-heading">What is DealDey Sellerzone? </p>
-            <p>DealDey Sellerzone is Nigeria’s number #1 Hyperlocal marketplace where you can list, sell and grow your business.</p>
-            <p class="bold para-heading">DealDey’s return policy</p>
+            <p>DealDey Sellerzone is Nigeria's number #1 Hyperlocal marketplace where you can list, sell and grow your business.</p>
+            <p class="bold para-heading">DealDey's return policy</p>
             <p>At DealDey Marketplace, customer satisfaction is key. All returns are made directly to the merchants.
       Notify the merchant of any problems, damages or defects within 3 days of receipt and ensure returns are made within 7 days of receipt.</p>
             <p class="bold para-heading">How do I make a return?</p>
@@ -108,11 +108,11 @@
             <p class="bold para-heading">Is my Card Details safe? </p>
             <p>Yes, your card details are safe with us. We are in partnership with InterSwitch, which uses SSL Technology to protect your card information.</p>
 
-            <p class="bold para-heading">Why can’t I use my Debit card?</p>
+            <p class="bold para-heading">Why can't I use my Debit card?</p>
             <p>There could be a series of reasons you cannot use your debit card. We would advise you get your Ipin for visa cards and <strong>one time password</strong> (OTP) for mastercard to enable you make purchases online. For further details please contact your bank.</p>
 
             <p class="bold para-heading">Can I merge 2 methods of Payment?</p>
-            <p>Yes, you can. You can merge wallet and card payments. All you have to do when you get to our payment option is to tick the box “Use wallet” and select your preferred options to make a purchase.</p>
+            <p>Yes, you can. You can merge wallet and card payments. All you have to do when you get to our payment option is to tick the box "Use wallet" and select your preferred options to make a purchase.</p>
 
           </div>
 
