@@ -41,3 +41,5 @@ BuyersGuide.prototype._addEventListenerToBody = function() {
 $(function() {
   new BuyersGuide();
 });
+
+
