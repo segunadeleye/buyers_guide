@@ -4,6 +4,6 @@
   <title>DealDey</title>
 </head>
 <body>
-  <h1>App Demos</h1>
+  <h1>App/Product Demos</h1>
 </body>
 </html>
