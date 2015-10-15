@@ -34,7 +34,7 @@
       <div class="ch">
         <div id="content1" class="content icon1" style="display:none;">
           <p>The DealDey Hyperlocal Marketplace is Nigeria's number #1 Platform for Deals and Discounts on your favourite Products and Services.</p>
-          <p>The DealDey Hyperlocal Marketplace was launched on the 1st of October, 2015 to offer a wide range of deals from food, travels, hotels, spas, professional courses, restaurants, and fashion items for male and female, gadgets, mobile phones, electronics and much more at deal prices. </p>
+          <p>The DealDey Hyperlocal Marketplace was launched on the 1st of October, 2015 to offer a wide range of deals from food, travels, hotels, spas, professional courses, restaurants, and fashion items for male and female, gadgets, mobile phones, electronics and much more at deal prices.</p>
           <p>This does not only increase the number of deals available, it also provides price competition, helping to ensure that prices are kept as low as possible for customers.</p>
           <p>One Special advantage of Shopping Hyper local is that it brings the deals closer to the CUSTOMER thereby allowing CUSTOMERS choose their best deals based on the locations closest to them. This means you can always find Deals anywhere you go and you can always find deals that are closest to you.</p>
         </div>
@@ -49,13 +49,13 @@
           <p>Check the Highlights for delivery details and ensure the deal description meets your needs</p>
           <p>Check the fine print for terms and conditions taking note of the deal expiration date.</p>
           <p>Make payments and complete your transaction.</p>
-          <p>The details of your order will be sent to the merchant after which, you’ll be contacted by the merchant for order confirmation</p>
+          <p>The details of your order will be sent to the merchant after which, you'll be contacted by the merchant for order confirmation</p>
           <p>Delivery will be made to your select delivery address.</p>
         </div>
         <div id="content6" class="content icon6" style="display:none;">
           <p>At DealDey, customer satisfaction is our <strong>TOP</strong> priority. <strong>Didn't get what you ordered</strong></p>
           <p>All returns are made directly to the merchant, all return requests/complaints should be made to the merchant within 3 days of receipt of product and returns made 7 days after receipt of product. However, if the product has been used by the customer the merchant is under no obligation to accept a return, but we recommend that you message the merchant to discuss your individual case as some may be happy to accept a return.</p>
-          <p>We are poised to making your shopping experience fun and delightful that’s why we go the extra mile for you. Merchant gets paid 7 business days after delivery of products or services after which, items/coupons cannot be returned nor complaints received.</p>
+          <p>We are poised to making your shopping experience fun and delightful that's why we go the extra mile for you. Merchant gets paid 7 business days after delivery of products or services after which, items/coupons cannot be returned nor complaints received.</p>
         </div>
       </div>
 
