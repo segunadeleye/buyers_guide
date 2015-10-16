@@ -19,11 +19,11 @@ BuyersGuide.prototype._addEventListenerToBody = function() {
     if ($target.is('div.icon') || $target.is('div.icon p')) {
       if ($('.'+$target.closest('div').attr('id')).get(0).style.display == 'none') { 
         timeout = setTimeout(function() {
-          $('.'+$target.closest('div').attr('id')).stop(true, true).slideDown(350, function() {
+          $('.'+$target.closest('div').attr('id')).stop(true, true).slideDown(100, function() {
             var body = document.body || document.documentElement;
             // body.scrollTop = body.scrollHeight;
           });
-        }, 600);
+        }, 200);
       }
     }
   }.bind(this)).on('mouseout', function(eventObject) {
