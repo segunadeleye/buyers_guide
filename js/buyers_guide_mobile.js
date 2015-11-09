@@ -14,16 +14,29 @@ BuyersGuide.prototype._init = function() {
 BuyersGuide.prototype._addEventListenerToBody = function() {
   timeout = null;
   
-  this._$body.on('mouseover', function(eventObject) {
+  this._$body.on('click', function(eventObject) {
     var $target = $(eventObject.target);
     if ($target.is('div.icon')) {
-      if ($('.'+$target.attr('id')).get(0).style.display == 'none') { 
-        timeout = setTimeout(function() {
-          $('.'+$target.attr('id')).stop(true, true).slideDown(100, function() {
-            var body = document.body || document.documentElement;
-            // body.scrollTop = body.scrollHeight;
-          });
-        }, 200);
+      $siblingTop = $target.siblings('.icon').offset().top || 0;
+      $selfTop = $target.offset().top || 0;
+      if (Math.abs($siblingTop - $selfTop) <= 5) { // the elements are on same line
+        if ($('.'+$target.attr('id')).last().get(0).style.display == 'none') { 
+          timeout = setTimeout(function() {
+            $($('.'+$target.attr('id')).last().get(0)).stop(true, true).slideDown(100, function() {
+              var body = document.body || document.documentElement;console.log(9);
+              // body.scrollTop = body.scrollHeight;
+            });
+          }, 200);
+        }
+      } else {
+        if ($('.'+$target.attr('id')).first().get(0).style.display == 'none') { 
+          timeout = setTimeout(function() {
+            $($('.'+$target.attr('id')).first().get(0)).stop(true, true).slideDown(100, function() {
+              var body = document.body || document.documentElement;console.log(99);
+              // body.scrollTop = body.scrollHeight;
+            });
+          }, 200);
+        }
       }
     }
   }.bind(this)).on('mouseout', function(eventObject) {

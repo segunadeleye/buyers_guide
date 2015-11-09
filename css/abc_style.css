@@ -1,0 +1,154 @@
+/* Custom Style For Diary of a DealDeyholic */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#diary-header {
+  clear: both;
+  background: #8da506;
+  padding: 20px 0;
+}
+
+#diary-header h3 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+#content {
+  clear: both;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#content .bx-viewport {
+  border-bottom: 1px solid #737373;
+  margin-bottom: 20px;
+  height: 520px !important;
+}
+
+#hyperlocal .bx-viewport {
+  border: none;
+  height: auto;
+}
+
+#slide1 img {
+  height: 520px;
+  width: auto;
+}
+#slide9 img {
+  height: 500px;
+  width: auto;
+  margin-top: 20%;
+  margin-left: -18px;
+}
+#slide9 .slide1-text {
+  padding-left: 275px;
+  margin-top: 210px;
+}
+#slide1 {
+  float: left;
+}
+.slide1-img {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+.slide1-text {
+  margin-top: 21%;
+  padding-left: 98px;
+  line-height: 1.5em;
+  word-spacing: 0.3em;
+  width: 68%;
+  display: inline-block;
+  float: left;
+}
+
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5,
+#slide6,
+#slide7,
+#slide8,
+#slide9 {
+  float: left;
+  width: 850px !important;
+}
+.day {
+  margin-bottom: 15px;
+}
+.slide2-img {
+  margin-bottom: 20px;
+  float: left;
+}
+.slide2-text {
+  float: left;
+  line-height: 1.5em;
+  width: 90%;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #747474;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #d3d1d1;
+}
+
+.bx-pager.bx-default-pager {
+    margin: 0 auto;
+    width: 180px;
+  }
+
+.bx-pager.bx-default-pager > div {
+  display: inline-block;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    margin-top: -345px;
+    outline: 0;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+
+.bx-wrapper .bx-next {
+    right: 200px;
+    background: url(../img/Right_2.png) no-repeat;
+}
+
+.bx-wrapper .bx-prev {
+    left: 200px;
+    background: url(../img/Left_2.png) no-repeat;
+}

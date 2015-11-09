@@ -1,0 +1,145 @@
+@font-face {
+  font-family: dealdeyFont;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ececec;
+  font-family: dealdeyFont;
+  overflow: scroll;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  background: transparent;
+}
+
+#faq {
+  background: #fff;  
+  padding: 50px 30px 30px;
+}
+#faq h1 {
+  font-size: 20px !important;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+table th {
+  padding: 10px;
+  background: #F8F8F8;
+  border-bottom: 1px solid #CFCFCF;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #CFCFCF;
+}
+
+h2  {
+  font-size: 24px;
+  line-height: 1.5em;
+  padding: 10px 0 20px;
+}
+
+.callamessenger table {
+  margin: 20px 0 40px;
+}
+
+.callamessenger ul {
+  margin: 20px 0;
+}
+
+.cityrun .contact-address {
+  border-bottom: 1px solid #CFCFCF;
+}
+
+.cityrun .pricing h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  padding: 20px 0 10px;
+}
+.cityrun .pricing p {
+  font-size: 20px;
+}
+.cityrun .pricing table {
+  margin: 20px 0 40px;
+}
+
+.courier-plus table {
+  margin-bottom: 40px;
+}
+
+.courier-plus .daily-tips {
+
+}
+.courier-plus .daily-tips p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.handling-tips,
+.suspension,
+.actions-to-be,
+.re-instated,
+.manage-inv {
+  margin-top: 20px;
+}
+
+p.p-italics {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.mexiloyd {
+
+}
+
+.contact-table {
+  margin-top: 30px;
+}
+
+.lagos-rates,
+.various-rates,
+.forward-charges,
+.red-star-region,
+.dropoff-location {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.forward-charges table {
+  margin-bottom: 30px;
+}
+
+.lagos-rates p,
+.various-rates p,
+.forward-charges p,
+.red-star-region p,
+.dropoff-location p {
+  font-size: 20px;
+}
+
+p.no-big {
+  font-size: 14px;
+}
+
+.tranzit,
+.def-of-services,
+.service-points {
+  margin: 30px 0;
+} 
+
+.tranzit table {
+  margin: 30px 0;
+}

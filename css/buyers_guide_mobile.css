@@ -21,10 +21,6 @@ h1 {
   font-size: 23px !important;
 }
 
-h6:hover {
-  background: #EBEBEB;
-}
-
 .title {
   background: #fff;
   text-align: center;
@@ -36,15 +32,6 @@ h6:hover {
 
 .banner {
   margin-bottom: -5px;
-}
-
-.inner-container {
-  background: #fff;
-  padding: 0 30px;
-}
-
-.inner-container > div {
-  margin-right: 35px;
 }
 
 .icon {
@@ -61,27 +48,61 @@ h6:hover {
 
 .content {
   padding: 30px;
-  /*width: 90%;*/
+  width: 90%;
   height: 100px;
-  margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+#content1 {
+  padding-bottom: 310px;
+}
+
+#content4 {
+  padding-bottom: 185px;
+}
+
+#content5 {
+  padding-bottom: 150px;
+}
+
+#content6 {
+  padding-bottom: 190px;
 }
 
 #content1 p,
 #content4 p,
 #content5 p,
 #content6 p {
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 5px;
 }
 
 .container {
-  max-width: 980px;
+  max-width: 767px;
   margin: 0 auto;
   background: transparent;
 }
 
 img {
   width: 100%;
+}
+
+.inner-container {
+  background: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0 15%;
+}
+
+.inner-container > div {
+  margin-right: 35px;
+}
+
+.buyer-info {
+  background: #fff;
+  margin: 0 auto;
+  height: 100%;
 }
 
 #icon1 {
@@ -132,9 +153,6 @@ img {
   background: url('../img/6b.png') no-repeat;
   background-position: center top;
 }
-#content1 {
-  margin-bottom: 30px;
-}
 
 #faq {
   background: #fff;  
@@ -181,57 +199,37 @@ img {
   line-height: 25px;
 }
 
-.expense-slide {
-  position: relative;
-  background-color: #fbfbfb;
-  height: auto;
-  float: left;
-}
-
-#hyperlocal > .bx-wrapper .bx-controls-direction a {
-  position: absolute;
-  margin-top: -275px;
-}
-
-#hyperlocal > .bx-wrapper .bx-viewport {
-  margin-bottom: 20px;
-}
-
 #expense-saving-1,
 #expense-saving-2 {
+  background-color: #fbfbfb;
   padding: 30px;
   float: left;
 }
-
-#expense-saving-1 img,
-#expense-saving-2 img,
-#expense-saving-3 img {
-  width: 80%;
-  margin-left: 11%;
+#expense-saving-2 {
+  margin-top: 20px;
 }
-
-#expense-saving-3 img {
-  margin-left: 5%;
+#expense-saving-1 img,
+#expense-saving-1 p,
+#expense-saving-2 img,
+#expense-saving-2 p {
+  float: left;
 }
 
 #expense-saving-1 p,
 #expense-saving-2 p {
   font-size: 15px;
   font-weight: 600;
-  padding: 20px 10px 0;
-  width: 100%;
+  padding: 10% 10px 0;
 }
 
 #expense-saving-3,
 #expense-saving-4 {
+  clear: both;
   margin-top: 20px;
   padding: 30px;
   float: left;
   width: 100%;
-}
-
-#expense-saving-3 {
-  margin-top: 120px;
+  background-color: #fbfbfb;
 }
 
 #expense-saving-3 img,
@@ -240,21 +238,11 @@ img {
 }
 
 #expense-saving-3 img {
-  width: 30%;
   margin-right: 20px;
 }
 
-#expense-saving-3 p {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 0 10px 0 10%;
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-
 #expense-saving-3 ul {
-  margin-left: 366px;
-  width: 490px;
+  margin-left: 5%;
 }
 
 #expense-saving-3 ul li {
@@ -265,9 +253,15 @@ img {
   margin-bottom: 5px;
 }
 
+#expense-saving-3 p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
 #expense-saving-4 img {
   margin-right: 30px;
-  width: 45%;
 }
 
 #expense-saving-4 p {
@@ -275,9 +269,6 @@ img {
   font-weight: 600;
   width: 90%;
   margin-bottom: 10px;
-}
-#expense-saving-4 p:first-of-type {
-  padding: 10% 10px 0 10%;
 }
 
 #think-smart {
@@ -301,4 +292,43 @@ img {
 .ch {
   background-color: #fff;
   height: 100%;
+  display: block;
+}
+
+@media (max-width: 668px) {
+  .inner-container {
+    max-width: 530px;
+    padding: 0 5%;
+  }
+}
+
+@media (max-width: 508px) {
+  .inner-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 5%;
+  }
+  .content {
+    height: 100%;
+    width: 100%;
+  }
+
+  #content1, #content4, #content4, #content6 {
+    padding-bottom: 30px;
+  }
+
+  #content1 p, #content4 p, #content5 p, #content6 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  #icon1, #icon4, #icon5, #icon6 {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  #icon1, #icon4, #icon5, #icon6 {
+    margin-left: 17%;
+  }
 }
